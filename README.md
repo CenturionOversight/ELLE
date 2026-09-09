@@ -16,7 +16,7 @@ That makes the model replaceable without making the persona development disposab
 
 ERIE and ELLE are twin engines with different authority.
 
-**ERIE — Epistemic Retrieval & Intelligence Engine** asks:
+**[ERIE — Epistemic Retrieval & Intelligence Engine](https://github.com/ArchePersona/ERIE-info)** asks:
 
 > **What do I know, and why?**
 
@@ -28,17 +28,13 @@ ERIE owns evidence, retrieval, provenance, and epistemic grounding.
 
 ELLE owns developmental interpretation, maturation, and learned behavioral continuity.
 
-A useful shorthand is:
-
 > **ERIE externalizes knowing. ELLE externalizes learning.**
-
-And:
 
 > **Evidence earns conclusions. Experience earns rules.**
 
 ## Operating principle
 
-ELLE should use deterministic machinery wherever computation is sufficient and reserve model cognition for actual interpretation and judgment.
+ELLE uses deterministic machinery wherever computation is sufficient and reserves model cognition for actual interpretation and judgment.
 
 > **Measure deterministically. Judge intelligently.**
 
@@ -48,7 +44,7 @@ Pressure does not make the learning decision. Pressure decides when a question h
 
 ## Runtime position
 
-ELLE is conceptually a learning-control layer around model interaction.
+ELLE is a learning-control layer around model interaction.
 
 The browser can act as the edge bridge: observing the conversation, attaching small ELLE instructions to an outbound model call, receiving ELLE-only structured return data, stripping that metadata from the visible conversation, and caching the active learning state needed for the next turn.
 
@@ -171,6 +167,16 @@ The desired result is **auditable emergence**: a persona can change through accu
 
 ELLE is currently in architecture definition. The core role, ownership boundaries, major primitives, twin relationship with ERIE, browser-edge concept, and deterministic-versus-cognitive split are established conceptually.
 
-Implementation details that are not yet established should remain unresolved rather than being silently invented.
-
 See [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) for the current architecture record.
+
+## Explore ARCHETRON
+
+- [ARCHETRON](https://github.com/CenturionOversight/ARCHETRON) — the VOLSHi technology ecosystem
+- [ERIE](https://github.com/ArchePersona/ERIE-info) — evidence, knowledge, and investigation
+- [ARCHE](https://github.com/ArchePersona/ARCHE-info) — attention allocation
+- [PEEP](https://github.com/ArchePersona/PEEP-info) — execution observation
+- [RATTER](https://github.com/ArchePersona/RATTER-info) — operational telemetry
+- [SHERLOCK](https://github.com/ArchePersona/SHERLOCK-info) — evidence-driven reconstruction and investigation
+- [ARCHEMADA](https://github.com/ArchePersona/ARCHEMADA-info) — controlled AI-assisted software construction
+- [ARCHESTRATOR](https://github.com/CenturionOversight/ARCHESTRATOR-info) — software engineering lifecycle infrastructure
+- [DEVSnitcher](https://github.com/CenturionOversight/devsnitcher) — browser-edge evidence capture
