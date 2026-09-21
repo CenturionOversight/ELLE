@@ -165,9 +165,15 @@ The desired result is **auditable emergence**: a persona can change through accu
 
 ## Status
 
-ELLE is currently in architecture definition. The core role, ownership boundaries, major primitives, twin relationship with ERIE, browser-edge concept, and deterministic-versus-cognitive split are established conceptually.
+ELLE is **under active development**.
 
-See [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) for the current architecture record.
+The architecture is established and implementation work is underway on the external learning engine: developmental state, scope isolation, provenance and ancestry, maturation, Rule formation, and the deterministic boundaries that support model-assisted judgment.
+
+ELLE is being built as a Python 3.11+ engine with its core implementation under `src/elle/`. The browser-edge bridge is one integration surface around that engine; it is not ELLE itself.
+
+The current development boundary preserves the distinction with ERIE: ERIE externalizes knowing; ELLE externalizes learning. Implementation is focused on making that developmental continuity durable, inspectable, and independent of any replaceable model backend.
+
+See [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) for the architecture record.
 
 ## Explore ARCHETRON
 
