@@ -1,8 +1,12 @@
 # ELLE
 
-**External Learning Loop Engine**
+**External Learning Loop Engine — persistent developmental learning outside the model.**
 
-ELLE is the developmental learning engine in the ARCHETRON ecosystem.
+ELLE is VOLSHi's developmental-learning infrastructure: a model-independent engine for preserving how intelligent systems learn from experience over time.
+
+Instead of leaving learning trapped in model weights, prompts, or disposable context windows, ELLE makes developmental continuity persistent system state. Experience, unresolved learning, maturation, provenance, scope, and durable behavioral Rules can survive the model that helped interpret them.
+
+ELLE is the developmental learning engine in the ARCHETRON ecosystem and the learning side of VOLSHi's span between machine intelligence and human experience.
 
 Its fundamental question is:
 
@@ -165,7 +169,7 @@ The desired result is **auditable emergence**: a persona can change through accu
 
 ## Status
 
-ELLE is **under active development**.
+ELLE is an **active VOLSHi engine under development**, not a conceptual research placeholder.
 
 The architecture is established and implementation work is underway on the external learning engine: developmental state, scope isolation, provenance and ancestry, maturation, Rule formation, and the deterministic boundaries that support model-assisted judgment.
 
